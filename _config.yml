@@ -42,7 +42,7 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
+  - title: Blog~
     url: /letthem_blog/archive
 
   - title: About
