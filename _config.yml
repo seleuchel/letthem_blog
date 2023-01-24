@@ -4,7 +4,7 @@ url: https://seleuchel.github.io
 paginate: 1
 baseurl: "/letthem_blog"
 permalink: pretty
-pagenate_path: "/baseurl/page:num"
+pagenate_path: "/baseurl/page:num/"
 
 # Gems
 plugins:
@@ -43,7 +43,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /archive
+    url: /archive.md
 
   - title: About
-    url: /about
+    url: /about.md
