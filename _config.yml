@@ -1,6 +1,6 @@
 # Setup
 title: Letthem Blog
-url: https://seleuchel.github.io/letthem_blog/
+url: https://seleuchel.github.io/
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -33,7 +33,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Seleuchel
-  url: https://seleuchel.github.io/letthem_blog/
+  url: https://seleuchel.github.io/
   email: seleuchel@gmail.com
 
 # Custom vars
