@@ -2,7 +2,7 @@
 title: Letthem Blog
 url: https://seleuchel.github.io
 paginate: 1
-baseurl: "/letthem_blog"
+baseurl: ""
 permalink: pretty
 
 # Gems
