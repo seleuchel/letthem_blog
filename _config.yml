@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://seleuchel.github.io/
+title: Letthem Blog
+url: https://seleuchel.github.io/letthem_blog/
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -33,7 +33,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Seleuchel
-  url: https://seleuchel.github.io/
+  url: https://seleuchel.github.io/letthem_blog/
   email: seleuchel@gmail.com
 
 # Custom vars
