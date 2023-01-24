@@ -1,3 +1,10 @@
+---
+layout: post
+title: 안녕
+categories: [Forensic]
+
+---
+
 # HI!
 ## my first jekyll post
 
