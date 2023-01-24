@@ -4,6 +4,7 @@ url: https://seleuchel.github.io
 paginate: 1
 baseurl: "/letthem_blog"
 permalink: pretty
+pagenate_path: "/baseurl/page:num"
 
 # Gems
 plugins:
