@@ -1,8 +1,8 @@
 # Setup
 title: Letthem Blog
-url: https://seleuchel.github.io/
+url: https://seleuchel.github.io
 paginate: 1
-baseurl: ""
+baseurl: "/letthem_blog"
 permalink: pretty
 
 # Gems
