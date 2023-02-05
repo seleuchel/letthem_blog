@@ -11,7 +11,7 @@ categories: [Web]
 * script (for xss)
 * sql query (for sqli)
 * 파일명(for file up/download)
-* 타 사이트의 resource (ex. immalisious.com/mal.js)
+* 타 사이트의 resource (ex. immalicious.com/mal.js)
 * 동일 사이트의 작업(for csrf, ex. samedomain.com/changepw?pw=1111)
 * 서버 내부 resource(for ssrf, http://사설ip대역:1111/secret.js))
 * 다양한 프로토콜(ex.ldap://작업, file:///작업, ftp://작업 )
