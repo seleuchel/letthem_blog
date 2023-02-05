@@ -5,7 +5,7 @@ paginate: 1
 baseurl: "/letthem_blog"
 permalink: pretty
 pagenate_path: "/letthem_blog/page:num/"
-category_list: [ War, Forensic, Mal, APT, Privacy, ICS, Think, ZZZ, Basic, Issue ]
+category_list: [ War, Forensic, Mal, APT, Privacy, ICS, Think, ZZZ, Basic, Issue, Web ]
 
 # Gems
 plugins:
