@@ -8,6 +8,8 @@ categories: [Web]
 요청 시에 사용하는 파라미터에는 생각보다 많은 것을 넣을 수 있음 
 
 ### ?test= 에 넣을 수 있는 것
+* 명령어 (for cmd injection)
+* path (for directory traversal, file reading etc.)
 * script (for xss)
 * sql query (for sqli)
 * 파일명(for file up/download)
