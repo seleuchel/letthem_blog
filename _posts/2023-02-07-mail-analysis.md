@@ -28,7 +28,7 @@ categories: [Analy]
     - 부분 내려받기
 
 # 2. Mail 동작 
-**(송신자:MUA)** --<span style='background-color: #fff5b1'>SMTP</span>-->**(메일서버<송신자>:MSA)** **(메일서버 간의 포워딩)** --<span style='background-color: #fff5b1'>SMTP</span>-->  --<span style='background-color: #fff5b1'>SMTP</span>--> **(메일서버<수신자>:MTA)** --<span style='background-color: #ffdce0'>POP3/IMAP4</span>--> **(수신자:MUA)**
+**(송신자:MUA)** --<span style='color: #fff5b1'>SMTP</span>--> **(메일서버<송신자>:MSA)** **(메일서버 간의 포워딩)** --<span style='color: #fff5b1'>SMTP</span>-->  --<span style='color: #fff5b1'>SMTP</span>--> **(메일서버<수신자>:MTA)** --<span style='color: #ffdce0'>POP3/IMAP4</span>--> **(수신자:MUA)**
 
 ###용어
 * MUA(Mail Use Agent): e-mail client SW
@@ -38,8 +38,8 @@ categories: [Analy]
 
 ## 3. Mail 전달방식
 - SPF(Sender Policy Framework)
-- DKIM
-- DMARC
+- DKIM(Domain Keys Identified Mail)
+- DMARC(Domain-based Message Authentication, Reporting & Conformance)
 
 # Mail 분석
 ## 1.Mail Protocol
@@ -50,31 +50,35 @@ categories: [Analy]
 * MAIL FROM : <송신자> (SPF. 신뢰가능)
 * RCPT TO : <수신자>
 
+
 ### 2) MESSAGE HEADER 
 * Received : 
 * Message-Id : 
+* Delivered-To : 수신자
+* Received-SPF : 
+* Authentication-Results : 
+* X-Original-SENDERIP: 송신자 IP?
+* X-Original-SENDERCOUNTRY: KR, South Korea 
+* X-Original-MAILFROM: 송신자
+* X-Original-RCPTTO: 수신자
+* DKIM-Signature : 
+* DomainKey-Signature : 
 * Content-Type : 
 * Date : 보낸날짜
 * From : 송신자 MAIL FROM과 다를 수 있음(DMARC. 신뢰가능)
 * To : 수신자 RCPT TO와 다를 수 있음
 * Subject : 제목
-* Subject : 제목
-* X-headers:
-|유형|설명|
-|------|------|
-|X-Naver-ESV|-|
-|X-Session-IP|-|
-|X-Hermes-Message-Id|-|
-|X-Mailer|-|
-|X-Originating-IP|발신자의 ip 정보|
-|X-HM-UT|-|
+
 
 ### 3) MESSAGE BODY
 info (Base64 Encoded picture)
+* X-MsgID:
+
 
 ## ※ 분석하기 좋은 도구
 - SysTools EML Viewer Pro (유료)
 - free-eml-viewer.exe (사용안해봄)
+- https://github.com/cyberdefenders/email-header-analyzer (메일헤더 분석기)
 
 
 # 실습
