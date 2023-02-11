@@ -12,6 +12,8 @@ categories: [War]
 * pwnable.kr (<https://pwnable.kr/>)
 * reversing.kr (<http://reversing.kr/>)
 * Python Challenge (<http://www.pythonchallenge.com/>)
+* crackmes.one (<https://crackmes.one/>)
+* vulnhub.com (<https://www.vulnhub.com/>)
 
 ### 참고(CTF)
 * SANS
