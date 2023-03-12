@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (LIST) CTF sites
+title: (CTF) CTF sites
 categories: [War]
 
 ---
@@ -25,3 +25,4 @@ categories: [War]
 * CODEGATE
 * [Forensic] 디지털범인을찾아라(https://forensickorea.org/)
 * [Forensic] Digital Forensics Challenge(https://dfchallenge.org/)
+* flareon (<https://flare-on.com/>)
