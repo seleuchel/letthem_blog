@@ -13,4 +13,4 @@ opencti를 설치했다
 * portainer 도움을 받아 여러 docker 컨테이너를 구성하는 게 낫다
 * youtube에 opencti 구성방법, connector 연결방법이 잘 나와있다
 
-![IMG](/assets/images/openctidashboard.png)
+![IMG](/letthem_blog/assets/images/openctidashboard.png)
